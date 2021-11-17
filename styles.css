@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0;
 }
+.logo{
+    display: flex;
+    padding-top: 30px;
+}
 .header {
     background-image: url("logos/log.png");
     background-position:center;
     background-size:cover;
     box-sizing: border-box;
-    height: 100px;
+    height: 500px;
 }
-.header ul{
+.nav-bar ul{
     display: flex;
     list-style: none;
     color: white;
@@ -17,7 +21,7 @@
     margin-right: 2%;  
     
 }
-.header ul li{
+.nav-bar ul li{
     height: 20px;
     width: 150px;
     margin: 10px;
@@ -26,7 +30,7 @@
     font-size: 20px;
     font-weight: 600;
 }
-.header ul li a{
+.nav-bar ul li a{
     text-decoration: none;
     color: white;
     width: 100px;
@@ -43,11 +47,11 @@
     font-weight: 600;
 
 }
-.header ul li:hover{
+.nav-bar ul li:hover{
     background-color: #1d1e54;
     border-radius: 3px;
 }
-.header .fa{
+.nav-bar .fa{
     margin-right: 10px;
 }
 .sub-menu{
@@ -56,18 +60,18 @@
 .sub-menu ul li{
     font-size: 16px;
 }
-.header ul li:hover .sub-menu{
+.nav-bar ul li:hover .sub-menu{
     display: block;
     position: absolute;
     background: #1d1e54;
     margin-top: 15px;
     margin-left: -15px;
 }
-.header ul li:hover .sub-menu ul{
+.nav-bar ul li:hover .sub-menu ul{
     display: block;
     margin: 10px;
 }
-.header ul li:hover .sub-menu ul li{
+.nav-bar ul li:hover .sub-menu ul li{
     width: 100px;
     padding: 15px;
     border-bottom: 1px solid #79f5be;
@@ -75,9 +79,9 @@
     border-radius: 0;
     text-align: right;
 }
-.header ul li:hover .sub-menu ul li:last-child{
+.nav-bar ul li:hover .sub-menu ul li:last-child{
     border-bottom: none;
 }
-.header ul li:hover .sub-menu ul li a:hover{
+.nav-bar ul li:hover .sub-menu ul li a:hover{
     color: #79f5be;
 }
